@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ProatomicNotificationExtension'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'A description of ProatomicNotificationExtension.'
 
   s.description = "Proatomic notifications extensions for iOS. This works only with iOS 10 and newer"
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Guillermo Sáenz' => 'gsaenz@proatomicdev.com' }
   s.source           = { :git => 'https://github.com/ProAtomic/ProatomicNotificationExtension.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.3'
 
   s.frameworks = 'UIKit', 'Foundation'
   s.default_subspecs= [
