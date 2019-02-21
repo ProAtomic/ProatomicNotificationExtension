@@ -1,0 +1,6 @@
+framework module ProatomicServiceExtension {
+  umbrella header "ProatomicServiceExtension.h"
+
+  export *
+  module * { export * }
+}
