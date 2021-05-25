@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ProatomicNotificationExtension'
-  s.version          = '0.2'
+  s.version          = '0.2.1'
   s.summary          = 'A description of ProatomicNotificationExtension.'
 
   s.description = "Proatomic notifications extensions for iOS. This works only with iOS 10 and newer"
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.subspec "ProatomicServiceExtension" do |ss|
     ss.vendored_frameworks = [
-        'ProatomicServiceExtension/Frameworks/ProatomicServiceExtension-Release-iphoneuniversal/ProatomicServiceExtension.xcframework'
+        'ProatomicNotificationExtension/Frameworks/ProatomicServiceExtension-Release-iphoneuniversal/ProatomicServiceExtension.xcframework'
     ]
   end
 
